@@ -28,7 +28,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
     
-    server.login('testpy3299@gmail.com', 'Testtest123!')
+    server.login('testpy3299@gmail.com', 'ur password...') #replace "ur password..." with ur email password
 
     subject = 'Preis ist gefallen!'
     body = url
