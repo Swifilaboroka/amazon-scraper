@@ -40,7 +40,7 @@ def send_mail():
         'herwigbuche@gmail.com',
         msg
     )
-    print('E-mail wurde gesendet.')
+    print('E-mail wurde gesendet.') 
     server.quit()
 
 
